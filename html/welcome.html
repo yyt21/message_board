@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>你好啊</title>
+        <link href="../style.css" rel=stylesheet type="text/css">
+        <script src="../totallyscript.js">  </script>
+    </head>
+    <body>
+        <h1 >欢迎！</h1>
+<p id="user"></p>
+
+        <div class="layui-form">
+            <form action= "../php/add_message.php" method="POST">
+            <div class="layui-form-item" style="color: gray">留言</div>
+            <textarea name="message" rows="15" cols="120"></textarea>
+            <input type="submit" value="留言">
+            </form>
+            <input type="button" onclick="window.location.href='show_message.html'" value="浏览留言" onclick="show()">
+         </div>
+         <br>
+
+</body>
+</html>

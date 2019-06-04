@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>注册账号</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <script type="text/javascript" src="../totallyscript.js"></script>
+    </head>
+    <body>
+        <p id="para1">Hello World!</p>
+        <div id="div1">   
+            <div id="div2" >        
+                <div class="layui-form">
+                    <div class="layui-form-item" style="color: gray">
+                    <h1>注册留言板账号</h1>
+                    </div>
+            <table width=400px>
+                    <form action="../php/add_account.php" method="post">
+                <tr>
+                    <td>create a name for yourself:<input type="text" name="id" ></td>
+                </tr>
+                <tr>
+                    <td>gender:<input type="radio" name="gender" value="female">女
+                                <input type="radio" name="gender" value="male">男</td>
+                </tr>
+                <tr>
+                    <td>password:<input type="password" name="key" ></td>
+                </tr>
+                <tr>
+                    <td>enter the password again:<input name="key2" type="password">
+                    </td>
+                </tr>
+                 <td><input type="submit" value="submit"></td>
+                </form>
+            <td><input type="button" value="返回" onclick ='window.open("index.html")'></td>  <!--或者也可以用<input type="button" onclick='location.href=("index.aspx")'>但是是在本页面打开的-->
+            </table>
+    
+        </div></div></div>
+        
+    </body>
+</html>
